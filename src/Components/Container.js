@@ -1,6 +1,9 @@
 import React from 'react'
 import Description from './Description'
 import Frame from './Frame'
+import { fetchData } from '../features/allArt/allArtAPI'
+
+fetchData()
 
 const Container = () => {
   return (
