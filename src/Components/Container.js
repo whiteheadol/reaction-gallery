@@ -1,7 +1,7 @@
 import React from 'react'
 import Description from './Description'
 import Frame from './Frame'
-import { fetchData } from '../features/allArt/allArtAPI'
+import { fetchData } from '../features/currentArt/currentArtAPI'
 
 fetchData()
 
