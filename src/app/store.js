@@ -1,8 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { setupListeners } from '@reduxjs/toolkit/query'
+import { artApi } from '../features/currentArt/currentArtAPI'
+import  currentArtReducer  from '../features/currentArt/currentArtSlice'
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    [artApi.reducerPath]: artApi.reducer,
+    currentArt: currentArtReducer,
   },
 });
+
+export default store
