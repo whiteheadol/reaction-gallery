@@ -1,9 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
+import { setupListeners } from '@reduxjs/toolkit/query'
+import { artApi } from '../features/currentArt/currentArtAPI'
 import  currentArtReducer  from '../features/currentArt/currentArtSlice'
 
 export const store = configureStore({
   reducer: {
-    currentArt: currentArtReducer
+    [artApi.reducerPath]: artApi.reducer,
+    currentArt: currentArtReducer,
   },
 });
 

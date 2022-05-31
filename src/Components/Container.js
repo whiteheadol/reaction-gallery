@@ -1,9 +1,9 @@
 import React from 'react'
 import Description from './Description'
 import Frame from './Frame'
-import { fetchData } from '../features/currentArt/currentArtAPI'
+// import { fetchData } from '../features/currentArt/currentArtAPI'
 
-fetchData()
+// fetchData()
 
 const Container = () => {
   return (
