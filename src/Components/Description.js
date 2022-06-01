@@ -1,12 +1,16 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 
 const Description = () => {
+
+  const { currentArt } = useSelector((state) => state.displayedArt);
+
   return (
     <div>
-      <p>Title:</p>
-      <p>Artist:</p>
-      <p>Medium:</p>
-      <p>Period:</p>
+      <p>Title: {currentArt.title}</p>
+      <p>Artist: {currentArt.artist}</p>
+      <p>Medium: {currentArt.medium}</p>
+      <p>Period: {currentArt.century}</p>
     </div>
   )
 }
