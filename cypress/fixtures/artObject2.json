@@ -1,0 +1,309 @@
+{
+  "objectid": "304019",
+  "objectnumber": "1949.106.A-C",
+  "accessionyear": "1949",
+  "dated": "1st century CE",
+  "datebegin": "1",
+  "dateend": "100",
+  "classification": "Musical Instruments",
+  "classificationid": "359",
+  "medium": "Brass",
+  "technique": "Cast, lost-wax process",
+  "techniqueid": "1311",
+  "period": "Roman Imperial period",
+  "periodid": "786",
+  "century": "1st century CE",
+  culture: "Egyptian",
+  style: null,
+  signed: null,
+  state: null,
+  edition: null,
+  standardreferencenumber: null,
+  dimensions: "15.1 x 2.6 x 1 cm (5 15/16 x 1 x 3/8 in.)",
+  copyright: null,
+  creditline: "Harvard Art Museums/Arthur M. Sackler Museum, Gift of Mr. Norman Vuilleumier on behalf of Mrs. Clifford Moore's Estate",
+  department: "Department of Ancient and Byzantine Art & Numismatics",
+  division: "Asian and Mediterranean Art",
+  contact: "am_asianmediterranean@harvard.edu",
+description: null,
+provenance: null,
+commentary: null,
+labeltext: null,
+imagecount: 2,
+mediacount: 0,
+colorcount: 10,
+markscount: 0,
+peoplecount: 0,
+titlescount: 1,
+publicationcount: 0,
+exhibitioncount: 2,
+contextualtextcount: 1,
+groupcount: 1,
+relatedcount: 2,
+totalpageviews: 317,
+totaluniquepageviews: 283,
+dateoffirstpageview: "2009-08-20",
+dateoflastpageview: "2022-05-31",
+verificationlevel: 4,
+verificationleveldescription: "Best. Object is extensively researched, well described and information is vetted",
+imagepermissionlevel: 0,
+lendingpermissionlevel: 0,
+accesslevel: 1,
+accessionmethod: "Gift",
+rank: 72510,
+url: "https://www.harvardartmuseums.org/collections/object/304019",
+id: 304019,
+lastupdate: "2022-06-01T05:33:51-0400",
+colors: [
+{
+color: "#fafafa",
+spectrum: "#955ba5",
+hue: "White",
+percent: 0.5636856368563685,
+css3: "#fffafa"
+},
+{
+color: "#e1e1e1",
+spectrum: "#955ba5",
+hue: "Grey",
+percent: 0.33311653116531165,
+css3: "#dcdcdc"
+},
+{
+color: "#4b4b4b",
+spectrum: "#3db657",
+hue: "Grey",
+percent: 0.029322493224932248,
+css3: "#2f4f4f"
+},
+{
+color: "#c8c8c8",
+spectrum: "#8c5fa8",
+hue: "Grey",
+percent: 0.023035230352303523,
+css3: "#c0c0c0"
+},
+{
+color: "#646464",
+spectrum: "#7866ad",
+hue: "Grey",
+percent: 0.015555555555555555,
+css3: "#696969"
+},
+{
+color: "#afafaf",
+spectrum: "#8c5fa8",
+hue: "Grey",
+percent: 0.01100271002710027,
+css3: "#a9a9a9"
+},
+{
+color: "#7d7d7d",
+spectrum: "#8362aa",
+hue: "Grey",
+percent: 0.00856368563685637,
+css3: "#808080"
+},
+{
+color: "#323232",
+spectrum: "#2eb45d",
+hue: "Grey",
+percent: 0.008292682926829269,
+css3: "#2f4f4f"
+},
+{
+color: "#969696",
+spectrum: "#8761aa",
+hue: "Grey",
+percent: 0.007046070460704607,
+css3: "#a9a9a9"
+},
+{
+color: "#191919",
+spectrum: "#1eb264",
+hue: "Grey",
+percent: 0.0003794037940379404,
+css3: "#000000"
+}
+],
+contextualtext: [
+{
+date: null,
+textiletext: null,
+context: "Ancient Mediterranean and Near Eastern Bronzes at the Harvard Art Museums",
+text: "The sistrum was a musical instrument that created sound through the rattling of its metal pieces; the Egyptian name for these instruments, sesheshet or sesheshat, is onomatopoetic and mimics the instruments’ rattling sound (1). In this example, the four crossbars were threaded through holes in the frame and prevented from falling out by twisting the ends in opposite directions (2). The instrument played an important part in the rites of the goddesses such as Hathor and Isis. It is often depicted as insignia of young female participants of these cults. With the spread of the Isis cult, examples of sistra have been found throughout the Roman world, including Pompeii (3). Many examples incorporate the head of Hathor along with other ornaments, although this sistrum is unadorned. The frame of the sistrum is roughly rectangular with an elegant triangular pediment. It represents the naos, or shrine, of the goddess. The handle tapers from an oval cross section down to a round one at the bottom and is terminated by a conical finial, perhaps a simplification of the papyrus column. Three of the four crossbars survive, one of which is broken and no longer secured within the frame. NOTES: 1. Thanks are due to E. Russo, Brown University, for this information. 2. Compare a similar sistrum in the Metropolitan Museum of Art, New York, inv. no. 19.5. 3. S. De Caro, The National Archaeological Museum of Naples (Naples, 1996) 132. Marian Feldman",
+type: "Published Catalogue Text"
+}
+],
+exhibitions: [
+{
+begindate: "2014-11-16",
+enddate: "2050-01-01",
+citation: "<em>32Q: 3740 Egyptian</em>, Harvard Art Museums, Cambridge, 06/01/2022 - 06/01/2023",
+exhibitionid: 4468,
+title: "32Q: 3740 Egyptian"
+},
+{
+begindate: "2014-11-16",
+enddate: "2050-01-01",
+citation: "<em>32Q: 3620 University Study Gallery</em>, Harvard Art Museums, Cambridge, 11/17/2014 - 02/13/2015",
+exhibitionid: 5435,
+title: "32Q: 3620 University Study Gallery"
+}
+],
+gallery: {
+begindate: "2022-06-01",
+gallerynumber: "3740",
+galleryid: 3740,
+name: "Ancient Mediterranean and Middle Eastern Art",
+theme: "Ancient Egypt: Art for Eternity",
+floor: 3
+},
+groupings: [
+{
+"groupid": 2040129,
+name: "Ancient Bronzes"
+}
+],
+images: [
+{
+date: "2012",
+copyright: "President and Fellows of Harvard College",
+imageid: 428288,
+idsid: 46473671,
+format: "image/jpeg",
+description: null,
+technique: "Camera: Phase One P20, Norman Flash",
+renditionnumber: "LEG251279",
+displayorder: 1,
+baseimageurl: "https://nrs.harvard.edu/urn-3:HUAM:LEG251279_dynmc",
+alttext: null,
+width: 841,
+publiccaption: null,
+iiifbaseuri: "https://ids.lib.harvard.edu/ids/iiif/46473671",
+height: 1024
+},
+{
+date: "1989-02-01",
+copyright: "President and Fellows of Harvard College",
+imageid: 130068,
+idsid: 43182775,
+format: "image/jpeg",
+description: null,
+technique: "Super XX",
+renditionnumber: "46120",
+displayorder: 2,
+baseimageurl: "https://nrs.harvard.edu/urn-3:HUAM:46120_dynmc",
+alttext: null,
+width: 2173,
+publiccaption: null,
+iiifbaseuri: "https://ids.lib.harvard.edu/ids/iiif/43182775",
+height: 2450
+}
+],
+primaryimageurl: "https://nrs.harvard.edu/urn-3:HUAM:LEG251279_dynmc",
+places: [
+{
+displayname: "Ancient & Byzantine World, Africa, Egypt?",
+confidence: null,
+placeid: 2028598,
+type: "Creation Place"
+}
+],
+related: [
+{
+accesslevel: 1,
+relationship: "Related work",
+objectid: 168933
+},
+{
+accesslevel: 1,
+relationship: "Related work",
+objectid: 117306
+}
+],
+details: {
+technical: [
+{
+text: "ICP-MS/AAA data from sample, Brass: Cu, 78.87; Sn, 0.83; Pb, 0.1; Zn, 19.9; Fe, 0.15; Ni, 0.02; Ag, 0.08; Sb, 0.06; As, less than 0.10; Bi, less than 0.025; Co, less than 0.005; Au, less than 0.01; Cd, less than 0.001 J. Riederer",
+formattedtext: "<P><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">ICP-MS/AAA data from sample,</SPAN> Brass:</SPAN></P> <P><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">Cu, <SPAN style="mso-no-proof: yes">78.87</SPAN>; Sn, <SPAN style="mso-no-proof: yes">0.83</SPAN>; Pb, <SPAN style="mso-no-proof: yes">0.1</SPAN>; Zn, <SPAN style="mso-no-proof: yes">19.9</SPAN>; Fe, <SPAN style="mso-no-proof: yes">0.15</SPAN>; Ni, <SPAN style="mso-no-proof: yes">0.02</SPAN>; Ag, <SPAN style="mso-no-proof: yes">0.08</SPAN>; Sb, <SPAN style="mso-no-proof: yes">0.06</SPAN>; As, <SPAN style="mso-no-proof: yes">less than 0.10</SPAN>; Bi, <SPAN style="mso-no-proof: yes">less than 0.025</SPAN>; Co, <SPAN style="mso-no-proof: yes">less than 0.005</SPAN>; Au, <SPAN style="mso-no-proof: yes">less than 0.01</SPAN>; Cd, less than 0.001</SPAN></P> <P><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"></SPAN>&nbsp;</P> <P><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">J. Riederer</SPAN></P>",
+type: "Chemical Composition"
+},
+{
+text: "XRF data from Tracer Alloy: Brass Alloying Elements: copper, zinc Other Elements: tin, lead, iron, silver, antimony K. Eremin, January 2014",
+formattedtext: "<P class=MsoNormal style="MARGIN: 0in 0in 0pt"><SPAN style="mso-ascii-font-family: 'Times New Roman'; mso-ascii-theme-font: major-bidi; mso-hansi-font-family: 'Times New Roman'; mso-hansi-theme-font: major-bidi; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: major-bidi"><FONT size=3><FONT face="Times New Roman">XRF data from <SPAN style="mso-no-proof: yes">Tracer</SPAN><?xml:namespace prefix = "o" ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></FONT></FONT></SPAN></P> <P class=MsoNormal style="MARGIN: 0in 0in 0pt"><SPAN style="mso-ascii-font-family: 'Times New Roman'; mso-ascii-theme-font: major-bidi; mso-hansi-font-family: 'Times New Roman'; mso-hansi-theme-font: major-bidi; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: major-bidi"><FONT size=3><FONT face="Times New Roman">Alloy: <SPAN style="mso-no-proof: yes">Brass</SPAN><o:p></o:p></FONT></FONT></SPAN></P> <P class=MsoNormal style="MARGIN: 0in 0in 0pt"><SPAN style="mso-ascii-font-family: 'Times New Roman'; mso-ascii-theme-font: major-bidi; mso-hansi-font-family: 'Times New Roman'; mso-hansi-theme-font: major-bidi; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: major-bidi"><FONT size=3><FONT face="Times New Roman">Alloying Elements: <SPAN style="mso-no-proof: yes">copper, zinc</SPAN><o:p></o:p></FONT></FONT></SPAN></P> <P class=MsoNormal style="MARGIN: 0in 0in 0pt"><SPAN style="mso-ascii-font-family: 'Times New Roman'; mso-ascii-theme-font: major-bidi; mso-hansi-font-family: 'Times New Roman'; mso-hansi-theme-font: major-bidi; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: major-bidi"><FONT size=3><FONT face="Times New Roman">Other Elements: tin, lead, <SPAN style="mso-no-proof: yes">iron, silver, antimony</SPAN></FONT></FONT></SPAN></P> <P class=MsoNormal style="MARGIN: 0in 0in 0pt"><SPAN style="mso-ascii-font-family: 'Times New Roman'; mso-ascii-theme-font: major-bidi; mso-hansi-font-family: 'Times New Roman'; mso-hansi-theme-font: major-bidi; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: major-bidi"><FONT size=3><FONT face="Times New Roman"><SPAN style="mso-no-proof: yes"></SPAN><o:p></o:p></FONT></FONT></SPAN>&nbsp;</P> <P class=MsoNormal style="MARGIN: 0in 0in 0pt"><SPAN style="mso-ascii-font-family: 'Times New Roman'; mso-ascii-theme-font: major-bidi; mso-hansi-font-family: 'Times New Roman'; mso-hansi-theme-font: major-bidi; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: major-bidi; mso-no-proof: yes"><FONT size=3 face="Times New Roman">K. Eremin, January 2014</FONT></SPAN><SPAN style="mso-ascii-font-family: 'Times New Roman'; mso-ascii-theme-font: major-bidi; mso-hansi-font-family: 'Times New Roman'; mso-hansi-theme-font: major-bidi; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: major-bidi"><o:p></o:p></SPAN></P>",
+type: "Chemical Composition"
+},
+{
+text: "The patina is green with areas of brown. There is a break on one side above the crossbar holes. The surface is well preserved. The main section was cast as a single unit. The thin vertical arms have hammer marks on much of the surface. They were cold worked to a thin, uniform dimension after casting. This would have strengthened this relatively delicate portion of the casting. The holes, which are very precise and show few artifacts of the drilling process, were made after the flat elements were hammered. The heavy wire crossbars show many hammer marks and were probably given most of their current dimension and shape by hammering. The slight projection at the bottom of the handle could be related to an attachment, but it has a smooth rather than broken texture. It could also be an appendage left from the casting process. Tony Sigel",
+formattedtext: "<P class=MsoNormal style="MARGIN: 0in 0in 3pt"><SPAN style="mso-bidi-font-family: 'Times New Roman'"><FONT size=3><FONT face="Times New Roman">The patina is green with areas of brown. There is a break on one side above the crossbar holes. The surface is well preserved. <?xml:namespace prefix = "o" ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></FONT></FONT></SPAN></P> <P class=MsoNormal style="MARGIN: 0in 0in 3pt"><o:p><FONT size=3 face="Times New Roman">&nbsp;</FONT></o:p></P> <P class=MsoNormal style="MARGIN: 0in 0in 3pt"><FONT size=3><FONT face="Times New Roman">The main section was cast as a single unit. The thin vertical arms have hammer marks on much of the surface. They were cold worked to a thin, uniform dimension after casting. This would have strengthened this relatively delicate portion of the casting. The holes, which are very precise and show few artifacts of the drilling process, were made after the flat elements were hammered. The heavy wire crossbars show many hammer marks and were probably given most of their current dimension and shape by hammering. The slight projection at the bottom of the handle could be related to an attachment, but it has a smooth rather than broken texture. It could also be an appendage left from the casting process. <o:p></o:p></FONT></FONT></P> <P class=MsoNormal style="MARGIN: 0in 0in 3pt"><o:p><FONT size=3 face="Times New Roman">&nbsp;</FONT></o:p></P> <P class=MsoNormal style="MARGIN: 0in 0in 3pt"><o:p><FONT size=3 face="Times New Roman">&nbsp;</FONT></o:p></P><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman','serif'; mso-bidi-font-family: Times; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-language: AR-SA; mso-ansi-language: EN-US; mso-fareast-language: EN-US">Tony Sigel</SPAN>",
+type: "Technical Observations"
+}
+]
+},
+terms: {
+medium: [
+{
+name: "Metal",
+id: 2028222
+},
+{
+name: "brass",
+id: 2028691
+},
+{
+name: "copper alloy",
+id: 2040148
+}
+],
+place: [
+{
+name: "Ancient & Byzantine World",
+id: 2028220
+},
+{
+name: "Africa",
+id: 2028235
+},
+{
+name: "Egypt?",
+id: 2028598
+}
+],
+century: [
+{
+name: "1st century CE",
+id: 37525635
+}
+],
+culture: [
+{
+name: "Egyptian",
+id: 37527318
+}
+]
+},
+titles: [
+{
+titletype: "Title",
+titleid: 616635,
+displayorder: 1,
+title: "Sistrum"
+}
+],
+title: "Sistrum",
+worktypes: [
+{
+worktypeid: "236",
+worktype: "musical instrument"
+}
+],
+seeAlso: [
+{
+id: "https://iiif.harvardartmuseums.org/manifests/object/304019",
+type: "IIIF Manifest",
+format: "application/json",
+profile: "http://iiif.io/api/presentation/2/context.json"
+}
+]
+}
