@@ -1,10 +1,11 @@
-import React from 'react'
-import Description from './Description'
-import Frame from './Frame'
+import React from 'react';
+import Description from './Description';
+import Frame from './Frame';
+import './Container.css';
 
 const Container = () => {
   return (
-    <div>
+    <div className="image-and-description">
       <Frame />
       <Description />
     </div>
