@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { getCurrentArt } from '../features/currentArt/currentArtSlice'
+import { getCurrentArt } from '../features/currentArt/currentArtSlice';
+import './Art.css'
 
 const Art = () => {
 
@@ -19,7 +20,7 @@ const Art = () => {
   }
 
   return (
-    <div>
+    <div className="current-image">
       <img className="art-image" src={currentArt.image} alt={currentArt.title}/>
     </div>
   )
