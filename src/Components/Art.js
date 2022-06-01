@@ -20,7 +20,7 @@ const Art = () => {
 
   return (
     <div>
-      <img src={currentArt.image}/>
+      <img className="art-image" src={currentArt.image} alt={currentArt.title}/>
     </div>
   )
 }

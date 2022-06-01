@@ -3,10 +3,10 @@ import React from 'react'
 const Nav = () => {
   return(
     <nav>
-      <h1>Reaction Gallery</h1>
-      <button>Randomize</button>
-      <button>Favorites</button>
-      <button>Home</button>
+      <h1 className="page-title">Reaction Gallery</h1>
+      <button className="random-btn">Randomize</button>
+      <button className="fav-btn">Favorites</button>
+      <button className="home-btn">Home</button>
     </nav>
   )
 }

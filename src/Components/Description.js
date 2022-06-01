@@ -7,10 +7,10 @@ const Description = () => {
 
   return (
     <div>
-      <p>Title: {currentArt.title}</p>
-      <p>Artist: {currentArt.artist}</p>
-      <p>Medium: {currentArt.medium}</p>
-      <p>Period: {currentArt.century}</p>
+      <p className="art-title">Title: {currentArt.title}</p>
+      <p className="art-artist">Artist: {currentArt.artist}</p>
+      <p className="art-medium">Medium: {currentArt.medium}</p>
+      <p className="art-period">Period: {currentArt.century}</p>
     </div>
   )
 }
