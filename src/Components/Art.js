@@ -11,14 +11,10 @@ const Art = () => {
   useEffect(() => {
     dispatch(getCurrentArt());
   }, []);
-
-
-  console.log(currentArt)
-
   if(loading) {
     return <h2>Loading...</h2>
   }
-
+  
   return (
     <div className="current-image">
       <img className="art-image" src={currentArt.image} alt={currentArt.title}/>

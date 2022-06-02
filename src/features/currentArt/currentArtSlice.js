@@ -13,10 +13,11 @@ export const getCurrentArt = createAsyncThunk('currentArt/getCurrentArt', async 
       artist = data.people.filter(person => person.role === 'Artist').map(person => person.name).join(', ')
     }
     return {
+      id: data.objectid,
       title: data.title,
       artist: artist || 'unknown',
-      medium: data.medium,
-      century: data.century,
+      medium: data.medium || 'unspecified',
+      century: data.century || 'unknown',
       image: data.images[0].baseimageurl
     }
   }
