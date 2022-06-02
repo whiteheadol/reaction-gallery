@@ -1,8 +1,8 @@
 .image-description {
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 30vw;
   height: 50vh;
   margin: 3em;

@@ -1,0 +1,26 @@
+.favorites-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100vw;
+}
+
+.favorite-card {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start; */
+  margin-bottom: 5em;
+}
+
+.favorite-image {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  margin: 0;
+  border: solid #bf953f 7px;
+  border-style: outset;
+  padding: 1em;
+}
+
+.favorite-title {
+  text-align: center;
+}
