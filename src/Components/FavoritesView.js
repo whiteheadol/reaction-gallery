@@ -4,8 +4,14 @@ import { useSelector, useDispatch } from 'react-redux'
 const FavoritesView = () => {
   const favoriteArt  = useSelector((state) => state.favoriteArt);
   const allFavoriteCards = favoriteArt.map(art => {
-    return <FavoriteCard />
+    return (
+      <div>
+        <img src={art.image}/>
+        <p>{art.title}</p>
+      </div>
+    )
   })
+  
   return (
     <div>
       {allFavoriteCards}
