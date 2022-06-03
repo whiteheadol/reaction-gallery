@@ -1,11 +1,15 @@
 .art-image {
   object-fit: contain;
   max-width: 100%;
-  max-height: 60%;
+  max-height: 50%;
   position: fixed;
   /* overflow: auto; */
   margin-left: -15em;
   /* cursor: zoom-in; */
+  /* margin: 0; */
+  border: solid #bf953f 7px;
+  border-style: outset;
+  padding: 1em;
 }
 
 .art-image:hover {
