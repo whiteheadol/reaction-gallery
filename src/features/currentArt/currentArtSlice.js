@@ -18,7 +18,8 @@ export const getCurrentArt = createAsyncThunk('currentArt/getCurrentArt', async 
       artist: artist || 'unknown',
       medium: data.medium || 'unspecified',
       century: data.century || 'unknown',
-      image: data.images[0].baseimageurl
+      image: data.images[0].baseimageurl,
+      isFavorite: false
     }
   }
 
