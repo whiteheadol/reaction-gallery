@@ -15,6 +15,10 @@ const FavoritesView = () => {
 
   return (
     <div className='favorites-container'>
+      {!favoriteArt.length && <div className="error-message">
+        <h2 className="favorites-error">Add some art, you plebeian!</h2>
+        <img className="error-image" src="https://sites.psu.edu/warfareinromanculture/wp-content/uploads/sites/25211/2015/04/plebians.jpg" />
+        </div>}
       {allFavoriteCards}
     </div>
   )

@@ -2,6 +2,23 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 100vw;
+  grid-template-areas: "error error";
+}
+
+.error-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: error;
+  margin-top: 2em;
+}
+
+.favorites-error  {
+}
+
+.error-image {
+  max-height: 25em;
+  max-width: 25em;
 }
 
 .favorite-card {

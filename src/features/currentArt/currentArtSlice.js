@@ -38,7 +38,8 @@ export const currentArtSlice = createSlice({
   name: 'currentArt',
   initialState: {
     currentArt: {},
-    loading: false
+    loading: false,
+    successful: true
   },
   extraReducers: {
     [getCurrentArt.pending]: (state, action) => {
@@ -46,9 +47,11 @@ export const currentArtSlice = createSlice({
     },
     [getCurrentArt.fulfilled]: (state, action) => {
       state.loading = false;
+      state.successful = true;
       state.currentArt = action.payload;
     },
     [getCurrentArt.rejected]: (state, action) => {
+      state.successful = false;
       state.loading = false;
     },
   },

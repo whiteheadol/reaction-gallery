@@ -16,15 +16,11 @@ const Description = () => {
 
   const checkIfFavorite = (currentArt, favoriteArt) => {
     let value = false;
-    if (favoriteArt) {
       favoriteArt.forEach(element => {
         if (element.id === currentArt.id) {
           value = true;
-        } else {
-          value = false;
         }
       })
-    }
     return value;
   }
 
