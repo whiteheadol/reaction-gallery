@@ -1,0 +1,19 @@
+.fof-box {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.fof-image {
+  height: 18em;
+  width: 10em;
+  border: solid #bf953f 7px;
+  border-style: outset;
+  padding: 1em;
+}
+
+.redirect {
+  margin-bottom: 1em;
+}
