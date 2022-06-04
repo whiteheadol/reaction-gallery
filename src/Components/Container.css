@@ -1,4 +1,11 @@
 .image-and-description {
   display: flex;
-  /* max-height: 50%; */
+}
+
+.load-error {
+  border: solid #bf953f 7px;
+  border-style: outset;
+  padding: 5em;
+  width: 100%;
+  margin: 2% 20% 0% 20%;
 }

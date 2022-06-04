@@ -18,7 +18,6 @@ const Nav = () => {
       <div className="btn-styling">
         <button className="random-btn" onClick={() => randomize()}>Randomize</button>
         <Link to='/favorites'> <button className="fav-btn">Favorites</button> </Link>
-        <button className="home-btn">Home</button>
       </div>
     </nav>
   )

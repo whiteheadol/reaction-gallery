@@ -11,4 +11,3 @@ export const favoriteArtSlice = createSlice({
 })
 export const { favorite }= favoriteArtSlice.actions
 export default favoriteArtSlice.reducer
-
