@@ -32,6 +32,5 @@ describe ('Reaction Gallery favorites page', () => {
       cy.get('.art-period').should('have.text', 'Period: 4th-3rd millennium BCE')
       cy.get('button').eq(2).should('not.exist')
     });
-
   });
 

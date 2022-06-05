@@ -1,6 +1,5 @@
 describe ('Reaction Gallery homepage', () => {
   beforeEach(() => {
-    // stub object fetched on load
     cy.intercept('GET', /^https:\/\/api\.harvardartmuseums\.org\/object\/.*\/?apikey=b5915d6a-dcba-45df-a4a6-9ff3a72dfbeb/, {
       statusCode: 200,
       headers: {
@@ -8,7 +7,6 @@ describe ('Reaction Gallery homepage', () => {
       },
       fixture: 'artObject1'
     });
-
     cy.visit('http://localhost:3000/')
   });
 
@@ -53,5 +51,4 @@ describe ('Reaction Gallery homepage', () => {
     cy.get('.art-medium').should('have.text', "Medium: Oil on canvas")
     cy.get('.art-period').should('have.text', 'Period: 18th century')
   });
-
 })
