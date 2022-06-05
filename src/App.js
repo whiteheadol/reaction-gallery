@@ -1,15 +1,13 @@
-// import React from 'react'
-import * as React from "react";
-import Nav from './Components/Nav'
-import Container from './Components/Container'
-import FavoritesView from './Components/FavoritesView'
-import FavoriteNav from './Components/FavoriteNav'
-import Error from './Components/Error'
-import './App.css';
+import React from 'react';
 import { Route, Switch } from 'react-router-dom';
+import Nav from './Components/Nav';
+import Container from './Components/Container';
+import FavoritesView from './Components/FavoritesView';
+import FavoriteNav from './Components/FavoriteNav';
+import Error from './Components/Error';
+import './styling/App.css';
 
-function App() {
-
+const App = () => {
   return (
     <main className="App">
       <Switch>
@@ -33,6 +31,6 @@ function App() {
       </Switch>
     </main>
   );
-}
+};
 
 export default App;

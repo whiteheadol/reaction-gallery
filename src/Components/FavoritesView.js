@@ -1,6 +1,6 @@
-import React from 'react'
-import { useSelector, useDispatch } from 'react-redux'
-import './FavoritesView.css'
+import React from 'react';
+import { useSelector } from 'react-redux';
+import '../styling/FavoritesView.css';
 
 const FavoritesView = () => {
   const favoriteArt  = useSelector((state) => state.favoriteArt);
@@ -10,8 +10,8 @@ const FavoritesView = () => {
         <p className='favorite-title'>{art.title}</p>
         <img src={art.image} className='favorite-image'/>
       </div>
-    )
-  })
+    );
+  });
 
   return (
     <div className='favorites-container'>
@@ -21,6 +21,7 @@ const FavoritesView = () => {
         </div>}
       {allFavoriteCards}
     </div>
-  )
-}
-export default FavoritesView
+  );
+};
+
+export default FavoritesView;

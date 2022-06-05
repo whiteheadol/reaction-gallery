@@ -1,8 +1,8 @@
 import React from 'react';
-import { useSelector } from 'react-redux'
+import { useSelector } from 'react-redux';
 import Description from './Description';
 import Frame from './Frame';
-import './Container.css';
+import '../styling/Container.css';
 
 const Container = () => {
   const { successful } = useSelector((state) => state.displayedArt);
@@ -17,4 +17,5 @@ const Container = () => {
     </div>
   )
 }
-export default Container
+
+export default Container;

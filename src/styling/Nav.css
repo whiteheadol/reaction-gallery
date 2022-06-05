@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-title {
+  font-size: 4em;
+}
+
+.btn-styling {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+button {
+  background: radial-gradient(
+    ellipse farthest-corner at right bottom,
+    #bf953f,
+    #fcf6ba 100%
+  );
+  border: none;
+  border-radius: 0.2em;
+  box-shadow: 0px 4px 8px #aa771c;
+  cursor: pointer;
+  font-family: "Special Elite", cursive;
+  font-size: 1.2em;
+  height: 3em;
+  margin: 0.6em;
+  width: 12em;
+}
+
+button:hover {
+  transform: scale(1.06);
+  transition: 0.6s;
+}

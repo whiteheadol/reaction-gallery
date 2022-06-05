@@ -5,7 +5,7 @@
 .load-error {
   border: solid #bf953f 7px;
   border-style: outset;
+  margin: 2% 20% 0% 20%;
   padding: 5em;
   width: 100%;
-  margin: 2% 20% 0% 20%;
 }

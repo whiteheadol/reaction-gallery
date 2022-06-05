@@ -1,0 +1,10 @@
+.image-description {
+  height: 50vh;
+  font-size: 1.2em;
+  margin: 3em;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

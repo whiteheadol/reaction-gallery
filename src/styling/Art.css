@@ -1,0 +1,10 @@
+.art-image {
+  border: solid #bf953f 7px;
+  border-style: outset;
+  margin-left: -15em;
+  max-height: 50%;
+  max-width: 100%;
+  object-fit: contain;
+  position: fixed;
+  padding: 1em;
+}

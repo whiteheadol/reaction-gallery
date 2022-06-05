@@ -1,19 +1,16 @@
 .favorites-container {
+  max-width: 100vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 100vw;
   grid-template-areas: "error error";
 }
 
 .error-message {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   grid-area: error;
   margin-top: 2em;
-}
-
-.favorites-error  {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .error-image {
@@ -22,20 +19,17 @@
 }
 
 .favorite-card {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-start; */
   margin-bottom: 5em;
 }
 
 .favorite-image {
-  width: 500px;
-  height: 500px;
-  object-fit: contain;
-  margin: 0;
   border: solid #bf953f 7px;
   border-style: outset;
+  height: 500px;
+  margin: 0;
+  object-fit: contain;
   padding: 1em;
+  width: 500px;
 }
 
 .favorite-title {
