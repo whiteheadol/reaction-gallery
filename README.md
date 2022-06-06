@@ -1,9 +1,21 @@
 # Reaction Gallery
 
+### Deployment Link
+You can view the deployed project [here]().
+
 ## Overview:
-This application allows users to visit a virtual art gallery from the comfort of their own home. Upon page load, a random piece of art will appear in the browser, along with information about its title, artist, medium, and period. If a user likes the displayed art, they can add it to their favorites - where they can view everything they've liked in one place.
+This application allows users to visit a virtual art gallery from the comfort of their own home. Upon page load, a random piece of art will appear in the browser, along with information about its title, artist, medium, and period. If a user likes the displayed art, they can add it to their favorites - where they can view everything they've liked in one place. When a user is ready to view another random work, they can click **Randomize**.
 
 ## Application in Action:
+
+Viewing a random artwork:
+
+![Example of randomizing the displayed art](https://media.giphy.com/media/S1JdIveZHK6MNDyh6t/giphy.gif)
+
+Adding an artwork to favorites and viewing all favorites:
+
+![Example of adding and viewing favorites](https://media.giphy.com/media/CPhea8rr2BcIJZYkKa/giphy.gif)
+
 
 ## Set Up:
 
@@ -34,6 +46,10 @@ Related to the main learning goal, our biggest challenge throughout this applica
 - NPM
 
 ## Future Additions:
+
+In the future, we hope to build out additional user functionality, including the following:
+- Giving users the ability to remove an artwork from their 'favorites'.
+- Allowing users to filter their 'favorited' artworks by medium or period.
 
 ## Contributors:
 
