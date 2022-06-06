@@ -1,8 +1,9 @@
 # Reaction Gallery
 
-## Overview
+## Overview:
+This application allows users to visit a virtual art gallery from the comfort of their own home. Upon page load, a random piece of art will appear in the browser, along with information about its title, artist, medium, and period. If a user likes the displayed art, they can add it to their favorites - where they can view everything they've liked in one place.
 
-## Application in Action
+## Application in Action:
 
 ## Set Up:
 
@@ -14,7 +15,11 @@
   - If you need to stop running the application, run `Control + C`.
 - To view tests, run `npm run cypress`.
 
-## Goals:
+## Goals and Challenges:
+
+The biggest learning goal for this application was to successfully self-teach a new technology, without help from instructors or mentors. Our team chose to teach ourselves the basics of Redux and its Toolkit library, as we feel that Global State Management will become incredibly important as we work on increasingly large applications. We do acknowledge that this particular application is not large enough to be a true Redux use case, however we are happy to have gained some practice with the technology.
+
+Related to the main learning goal, our biggest challenge throughout this application was knowing exactly where to start with our self-teaching. The documentation for Redux and even Toolkit specifically is so vast, that narrowing down our learning strategy took quite a bit of planning.
 
 ## Technologies:
 
