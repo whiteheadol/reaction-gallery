@@ -50,6 +50,7 @@ Related to the main learning goal, our biggest challenge throughout this applica
 In the future, we hope to build out additional user functionality, including the following:
 - Giving users the ability to remove an artwork from their 'favorites'.
 - Allowing users to filter their 'favorited' artworks by medium or period.
+- The application is not fully resonsive (ex: on mobile devices) and we would like to make it so in the future.
 
 ## Contributors:
 
