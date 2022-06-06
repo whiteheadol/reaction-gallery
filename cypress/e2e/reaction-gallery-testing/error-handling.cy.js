@@ -1,8 +1,19 @@
 describe ('Reaction Gallery error-handling', () => {
-
-    it('Should see an error if fetch returns a 500', () => {
+    it('Should see an error if fetch returns a 500 error', () => {
       cy.intercept('GET', /^https:\/\/api\.harvardartmuseums\.org\/object\/.*\/?apikey=b5915d6a-dcba-45df-a4a6-9ff3a72dfbeb/, {
         statusCode: 500,
+        headers: {
+          'x-requested-with': 'exampleClient',
+        },
+        fixture: 'artObject1'
+      });
+      cy.visit('http://localhost:3000/')
+      cy.get('.load-error').should('have.text','The gallery is closed for cleaning, please visit again soon.')
+    });
+
+    it('Should see an error if fetch returns a 404 error', () => {
+      cy.intercept('GET', /^https:\/\/api\.harvardartmuseums\.org\/object\/.*\/?apikey=b5915d6a-dcba-45df-a4a6-9ff3a72dfbeb/, {
+        statusCode: 404,
         headers: {
           'x-requested-with': 'exampleClient',
         },
@@ -27,13 +38,6 @@ describe ('Reaction Gallery error-handling', () => {
     });
 
     it('Should see an error if the url does not exist and user can redirect to homepage', () => {
-      cy.intercept('GET', /^https:\/\/api\.harvardartmuseums\.org\/object\/.*\/?apikey=b5915d6a-dcba-45df-a4a6-9ff3a72dfbeb/, {
-        statusCode: 200,
-        headers: {
-          'x-requested-with': 'exampleClient',
-        },
-        fixture: 'artObject1'
-      });
       cy.visit('http://localhost:3000/potato')
       cy.get('.fof-message').should('have.text',`Hey! You're in the restricted section!`)
       cy.get('.redirect').should('have.text','Click here to go back to the main gallery')
@@ -41,5 +45,4 @@ describe ('Reaction Gallery error-handling', () => {
       cy.get('.redirect').click()
       cy.url('http://localhost:3000/')
     });
-
 });

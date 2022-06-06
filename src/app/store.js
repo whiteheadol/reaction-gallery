@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import  currentArtReducer  from '../features/currentArt/currentArtSlice'
-import favoriteArtReducer from '../features/favorites/favoriteArtSlice'
+import  currentArtReducer  from '../features/currentArt/currentArtSlice';
+import favoriteArtReducer from '../features/favorites/favoriteArtSlice';
 
 export const store = configureStore({
   reducer: {
@@ -9,4 +9,4 @@ export const store = configureStore({
   },
 });
 
-export default store
+export default store;

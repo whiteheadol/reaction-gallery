@@ -1,5 +1,5 @@
-import React from 'react'
-import { useSelector } from 'react-redux'
+import React from 'react';
+import { useSelector } from 'react-redux';
 
 const Art = () => {
   const currentArt = useSelector((state) => state.currentArt)
@@ -7,6 +7,7 @@ const Art = () => {
     <div>
       <img src={currentArt.image}/>
     </div>
-  )
-}
-export default Art
+  );
+};
+
+export default Art;

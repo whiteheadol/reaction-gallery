@@ -1,4 +1,4 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 export const favoriteArtSlice = createSlice({
   name: 'favoriteArt',
@@ -8,6 +8,7 @@ export const favoriteArtSlice = createSlice({
       state.push(action.payload)
     }
   },
-})
-export const { favorite }= favoriteArtSlice.actions
-export default favoriteArtSlice.reducer
+});
+
+export const { favorite } = favoriteArtSlice.actions;
+export default favoriteArtSlice.reducer;

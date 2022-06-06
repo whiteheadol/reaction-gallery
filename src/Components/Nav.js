@@ -1,8 +1,8 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 import { getCurrentArt } from '../features/currentArt/currentArtSlice';
-import './Nav.css'
-import { Link } from 'react-router-dom'
+import '../styling/Nav.css';
 
 const Nav = () => {
 
@@ -20,7 +20,7 @@ const Nav = () => {
         <Link to='/favorites'> <button className="fav-btn">Favorites</button> </Link>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

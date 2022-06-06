@@ -1,14 +1,13 @@
-import React from 'react'
-import './Description.css'
-import {favorite} from '../features/favorites/favoriteArtSlice'
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-
+import {favorite} from '../features/favorites/favoriteArtSlice';
+import '../styling/Description.css';
 
 const Description = () => {
 
-  const dispatch = useDispatch()
-  const { currentArt } = useSelector((state) => state.displayedArt)
-  const favoriteArt = useSelector((state) => state.favoriteArt)
+  const dispatch = useDispatch();
+  const { currentArt } = useSelector((state) => state.displayedArt);
+  const favoriteArt = useSelector((state) => state.favoriteArt);
 
   const addFavorite = (currentArt) => {
     dispatch(favorite(currentArt));
@@ -22,7 +21,7 @@ const Description = () => {
         }
       })
     return value;
-  }
+  };
 
   return (
     <div className="image-description">
@@ -32,6 +31,7 @@ const Description = () => {
       <p className="art-period"><strong>Period: </strong>{currentArt.century}</p>
       {!checkIfFavorite(currentArt, favoriteArt) && <button onClick={() => addFavorite(currentArt)}>Add to favorites</button>}
     </div>
-  )
-}
-export default Description
+  );
+};
+
+export default Description;

@@ -1,7 +1,7 @@
-import React, {useEffect} from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import React, {useEffect} from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import { getCurrentArt } from '../features/currentArt/currentArtSlice';
-import './Art.css'
+import '../styling/Art.css';
 
 const Art = () => {
 
@@ -19,7 +19,7 @@ const Art = () => {
     <div className="current-image">
       <img className="art-image" src={currentArt.image} alt={currentArt.title}/>
     </div>
-  )
-}
+  );
+};
 
-export default Art
+export default Art;
